@@ -20,6 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: lily58_left
+    shield: eggada50_left
   - board: nice_nano_v2
-    shield: lily58_right
+    shield: eggada50_right
+  # - board: seeeduino_xiao_ble
+  #   shield: eggada50_dongle prospector_adapter
