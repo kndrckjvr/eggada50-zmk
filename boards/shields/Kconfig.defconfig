@@ -1,6 +1,0 @@
-if SHIELD_EGGADA50
-
-config ZMK_KEYBOARD_NAME
-    default "Eggada50"
-
-endif
