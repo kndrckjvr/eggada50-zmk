@@ -1,0 +1,2 @@
+config SHIELD_EGGADA50
+    def_bool $(shield_list_contains, Eggada50)
