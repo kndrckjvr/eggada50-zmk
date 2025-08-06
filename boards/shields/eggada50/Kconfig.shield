@@ -5,3 +5,6 @@ config SHIELD_EGGADA50_LEFT
 # No whitespace after the comma or in your part name!
 config SHIELD_EGGADA50_RIGHT
     def_bool $(shields_list_contains,eggad50_right)
+
+config SHIELD_EGGADA50_DONGLE
+    def_bool $(shields_list_contains,eggada50_dongle)
