@@ -17,11 +17,11 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 
 # Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
 config BT_MAX_CONN
-    default 7
+    default 5
 
 # Set this to the same number as BT_MAX_CONN
 config BT_MAX_PAIRED
-    default 7
+    default 5
 
 endif
 
