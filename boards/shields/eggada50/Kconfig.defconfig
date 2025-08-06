@@ -2,7 +2,6 @@
 config ZMK_KEYBOARD_NAME
     default "Eggada50"
 
-endif
 if SHIELD_SOFLE_ERGOMECH_DONGLE
 
 config ZMK_SPLIT
@@ -13,6 +12,8 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 3
+
+endif
 
 if SHIELD_EGGADA50_LEFT || SHIELD_EGGADA50_RIGHT
 
