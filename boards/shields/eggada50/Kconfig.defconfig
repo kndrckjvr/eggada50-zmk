@@ -1,6 +1,13 @@
 # Name must be less than 16 characters long!
+if SHIELD_EGGADA50_LEFT
+
 config ZMK_KEYBOARD_NAME
     default "Eggada50"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
 
 if SHIELD_SOFLE_ERGOMECH_DONGLE
 
