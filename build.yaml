@@ -23,5 +23,7 @@ include:
     shield: eggada50_left
   - board: nice_nano_v2
     shield: eggada50_right
+  - board: nice_nano_v2
+    shield: settings_reset
   # - board: seeeduino_xiao_ble
   #   shield: eggada50_dongle prospector_adapter
